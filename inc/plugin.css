@@ -1,0 +1,119 @@
+#ozh_bpp_wrap {
+	background:#beb url(images/grip.gif) center left no-repeat;
+	position:fixed;
+	top: 0px;
+	right:0px;
+	z-index:99999;
+	height:65%;
+	overflow:hidden;
+	padding:0px;
+	padding-left:7px;
+	width:0px;
+	border-top:1px solid green;
+	border-bottom:1px solid green;
+	opacity:0.9;
+}
+#ozh_bpp {
+	padding:0;
+	color:green;
+}
+#ozh_bpp ol {
+	margin: 0;
+	font-size:10px;
+	padding:0 0 0 3em;
+	line-height:15px;
+	background:#beb;
+}
+#bpp_force {
+	margin-left:10px;
+}
+.bpp_vers {
+	height:18px;
+	float:center;
+	background:transparent url(images/plugin_error.gif) top right no-repeat;
+	padding-right:18px;
+	padding-bottom:3px;
+}
+.bpp_zip {
+	background:url(images/plugin_link.gif) left top no-repeat;
+	padding-left:18px;
+}
+.bpp_upg {
+	background:url(images/plugin_go.gif) left top no-repeat;
+	padding-left:18px;
+}
+td.status span.active, .bpp_plugin {
+	background:transparent url(images/plugin.gif) left top no-repeat !important;
+	padding-left:18px;
+}
+td.status span.inactive {
+	background:url(images/plugin_disabled.gif) left top no-repeat;
+	padding-left:18px;
+}
+th.action-links, td.action-links {
+	width:5%;
+	text-align:left;
+}
+td.status span, td.status a, td.action-links a {
+	display:block;
+	height:18px;
+	text-align:left;
+}
+.bpp_activate {
+	background:url(images/plugin_add.gif) left top no-repeat;
+	padding-left:18px;
+}
+.bpp_deactivate {
+	background:url(images/plugin_delete.gif) left top no-repeat;
+	padding-left:18px;
+}
+.bpp_edit {
+	background:url(images/plugin_edit.gif) left top no-repeat;
+	padding-left:18px;
+}
+#bpp_counter {
+	margin:3px 8px 0pt 0pt;
+	border-color:#5396C5;
+	padding:2px 4px;
+	vertical-align:top;
+	font-size:12px;
+	background:url(images/plugin.gif) left center no-repeat;
+	padding-left:18px;
+}
+#bpp_wtf_mask {
+	top:0px;
+	left:0px;
+	background:white;
+	width:100%;
+	height:100%;
+	position:fixed;
+	_position:absolute;
+	z-index:99998;
+	display:none;
+}
+#bpp_wtf_msg {
+	display:none;
+	top:100px;
+	left:100px;
+	position:fixed;
+	_position:absolute;
+	font-size:140%;
+	width:550px;
+	height:150px;
+	border-width:4px;
+	z-index:99999;
+	text-align:center;
+}
+#bpp_wtf_msg_close {
+	cursor:pointer;
+	text-align:center;
+	width:50%;
+}
+.byozh {
+	background:transparent url(images/ozh.png) left top no-repeat !important;
+	padding-left:18px;
+}
+.bpp_newversion {
+	background:transparent url(images/stripe.gif);
+	padding:0px 5px 2px 5px;
+}
